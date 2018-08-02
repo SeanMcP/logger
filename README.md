@@ -41,6 +41,9 @@ console.log('myVar:', myVar);
 const myVar = 'The value of myVar';
 log('myVar');
 // myVar: 'The value of myVar'
+
+log(25);
+// Uncaught TypeError: log function requires a string argument
 ```
 
 ## Caution
