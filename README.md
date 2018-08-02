@@ -50,6 +50,6 @@ log(25);
 
 The `log` function relies on JavaScript's built-in `eval` function which dangerously executes any string it is passed. This can provide a security risk and should not be used in production. It is safe to `@seanmcp/logger` in development, but remember to remove the `import`/`require` in production.
 
-## Thanks
+## References
 
-This package was created by following [Jonathan Wood's](/Bamblehorse) tutorial: ["How to make a beautiful, tiny npm package and publish it" (freeCodeCamp.org)](https://medium.freecodecamp.org/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78).
+This package was inspired by [Jonathan Wood's](/Bamblehorse) article: ["How to make a beautiful, tiny npm package and publish it" (freeCodeCamp.org)](https://medium.freecodecamp.org/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78).
