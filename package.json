@@ -1,4 +1,13 @@
 {
     "name": "@seanmcp/logger",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Adds variable name to basic console.log",
+    "license": "MIT",
+    "repository": "seanmcp/logger",
+    "main": "index.js",
+    "keywords": [
+        "logger",
+        "log",
+        "seanmcp"
+    ]
 }
