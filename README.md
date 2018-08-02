@@ -9,7 +9,7 @@ A simple console logger
 
 `console.log` is a helpful way to quickly debug a problem in JavaScript. Writing logs, however, can get tedious. While developing, I find myself writing the following line frequently:
 
-```js
+```javascript
 console.log('myVar:', myVar);
 ```
 
@@ -19,7 +19,7 @@ console.log('myVar:', myVar);
 
 ### Setup
 
-```js
+```javascript
 import log from '@seanmcp/logger';
 // or
 const log = require('@seanmcp/logger');
@@ -29,7 +29,7 @@ const log = require('@seanmcp/logger');
 
 Use `log` in the place of `console.log`:
 
-```js
+```javascript
 log('myVar');
 // does the same thing as
 console.log('myVar:', myVar);
@@ -37,7 +37,7 @@ console.log('myVar:', myVar);
 
 `log` takes a string and returns a log:
 
-```js
+```javascript
 const myVar = 'The value of myVar';
 log('myVar');
 // myVar: 'The value of myVar'
@@ -49,3 +49,7 @@ log(25);
 ## Caution
 
 The `log` function relies on JavaScript's built-in `eval` function which dangerously executes any string it is passed. This can provide a security risk and should not be used in production. It is safe to `@seanmcp/logger` in development, but remember to remove the `import`/`require` in production.
+
+## Thanks
+
+This package was created by following [Jonathan Wood's](/Bamblehorse) tutorial: ["How to make a beautiful, tiny npm package and publish it" (freeCodeCamp.org)](https://medium.freecodecamp.org/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78).
